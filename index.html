@@ -1,15 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Rock Paper Scissors</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <h1>GUI will be available later...</h1>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+
+        <div class="statistic">
+            <h1 class="title">Rock <br/> Paper <br/> Scissors</h1>
+            <h2 id="winner"></h2>
+            <h3 id="result"></h3>
+
+            <div class="right-score">
+                <p>Computer: <span id="cScore">0</span> </p>
+                <p>You: <span id="pScore">0</span></p>
+            </div>  
+        </div>
+
+        <div>
+        </div>
+
+      <div class="buttons">
+          <!-- <img src="./image//icon-rock.svg" class="rock" alt="rock">
+          <img src="./image//icon-paper.svg" class="paper" alt="paper">
+          <img src="./image//icon-scissors.svg" class="scissors" alt="scissors"> -->
+        <button class="rock">Rock</button> 
+        <button class="paper">Paper</button>
+        <button class="scissors">Scissors</button>
+      </div>
+
+    </div>
 
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
