@@ -11,10 +11,10 @@ Solution for the [PROJECT: Rock Paper Scissors](https://www.theodinproject.com/p
 - [Author](#author)
 
 ### Challenges
-Have to implement functionality for a basic Rock Paper Scissors game that can be played from browser console. No need to implement GUI for now.
+Have to implement functionality for a basic Rock Paper Scissors game that can be played from browser. 
 
 ## My process
-Hello, this is my 2nd project here in The Odin Project. It's a simple Rock Paper Scissors game that can be played from browser console.
+Hello, this is my 2nd project here in The Odin Project. It's a simple Rock Paper Scissors game.
 
 ### Built with
 - Basic JavaScript
@@ -23,6 +23,12 @@ Hello, this is my 2nd project here in The Odin Project. It's a simple Rock Paper
     - random number
     - conditional statement
     - function
+    - DOM
+- HTML5
+- CSS
+    - flexbox
+    - css variable
+    - etc
 
 ### What I learned
 - How to solve a problem step by step

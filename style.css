@@ -122,7 +122,6 @@ img {
     width: auto;
 }
 
-
 .img:hover {
   transform: rotate(60deg) scale(1.05);
   cursor: pointer;
