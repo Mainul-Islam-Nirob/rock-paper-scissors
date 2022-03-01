@@ -29,7 +29,7 @@ The final output:
 Currently it's only for Desktop. I'll make responsive later
 
 ### Links
-Live Site URL: [Live site of the challenge hosted here](#)
+Live Site URL: [Live site of the challenge hosted here](https://mainul-islam-nirob.github.io/rock-paper-scissors/)
 
 ### Built with
 - Basic JavaScript
