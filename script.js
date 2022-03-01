@@ -45,7 +45,7 @@ function playRound(ps, cs) {
 }
 
 
-let buttons = document.querySelectorAll("button");
+let rps = document.querySelectorAll("img");
 let resultContainer = document.getElementById("result");
 let cScore = document.getElementById("cScore");
 let pScore = document.getElementById("pScore");
@@ -53,16 +53,12 @@ let winnerContainer = document.getElementById("winner");
 
 
 
-buttons.forEach(button => {
+rps.forEach(button => {
     
     button.addEventListener("click", (e) => {
-
-        let playerSelection = e.target.innerText.toLowerCase();
-
+        let playerSelection = e.target.className.toLowerCase();
         let result = playRound(playerSelection, computerPlay());
         
-        // console.log(result);
-
         let paragraph = document.createElement("p").innerText = result[0];
        resultContainer.innerHTML = paragraph;
 
