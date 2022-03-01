@@ -1,3 +1,12 @@
+:root{
+    --border3: #eca113;
+    --border2: #4d6af4;
+    --border1: #db3452;
+    --bg: #182343;
+    --white: #e6e6e6;
+    --font: #535167;
+}
+
 body {
    width: 100vw;
    height: 100vh;
@@ -7,7 +16,7 @@ body {
    display: flex;
    align-items: center;
    justify-content: center;
-   background-color: blueviolet;
+   background-color: var(--bg);
 
 }
 
@@ -17,12 +26,11 @@ body {
    display: flex;
    flex-direction: column;
    align-items: center;
-   /* justify-content: center; */
 
 }
 
 .statistic {
-    border: 2px solid #fff;
+    border: 2px solid var(--white);
     border-radius: 20px;
     display: flex;
     width: 100%;
@@ -34,27 +42,25 @@ body {
 }
 
 .statistic .title {
-    color: aqua;
+    color: var(--white);
 
 }
 
 .statistic #winner {
-    max-width:  380px;
+    max-width: 380px;
     color: aquamarine;
     text-align: center;
     font-size: 38px;
-    /* box-shadow: 2px 2px 25px rgba(128, 128, 128, 0.384);
-    background-color: rgb(13, 129, 129); */
+
 }
 
 .statistic .right-score {
    width: 150px;
    height: 120px;
-   background-color: #fff;
-   color: rgb(4, 27, 27);
+   background-color: var(--white);
+   color: var(--font);
    font-size: 24px;
    border-radius: 20px;
-   /* text-align: center; */
    display: flex;
    flex-direction: column;
    align-items: center;
@@ -74,27 +80,50 @@ body {
     text-align: center;
 }
 
-.buttons {
+.images {
     margin: 20px;
-
+    display: flex;
+     -webkit-user-select: none;
+     /* Safari */
+     -ms-user-select: none;
+     /* IE 10 and IE 11 */
+     user-select: none;
+     /* Standard syntax */
 }
 
-button {
-    /* width: 110px;
-    height: 50px; */
-    background-color: aqua;
-    border: 2px solid #fff;
-    border-radius: 5px;
-    color: #fff;
-    font-size: 24px;
-    font-weight: bold;
-    margin: 10px;
-    padding: 15px 30px;
-}
-
-button:hover {
+.img {
+    width: 100px;
+    height: 100px;
     background-color: #fff;
-    color: aqua;
-    transform: scale(1.1);
-    cursor: pointer;
+    border: 20px solid;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+
+.img-rock {
+    border-color: var(--border1);
+}
+
+.img-paper {
+    border-color: var(--border2);
+}
+
+.img-scissors {
+    border-color: var(--border3);
+}
+
+img {
+    height: 60px;
+    width: auto;
+}
+
+
+.img:hover {
+  transform: rotate(60deg) scale(1.05);
+  cursor: pointer;
 }
